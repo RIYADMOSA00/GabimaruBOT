@@ -13,14 +13,19 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["994400776021", '〔⚡️〕𝑻𝑬𝑹𝑩𝑶〔⚡️〕', true],
+["201119857886", '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿
+["5492266613038"], 
 ["5573031859"],
 ["5218715746374"],
 ["593968585383"],
 ["595976126756"],
 ["584125778026"],
 ["593968263524"],
-["5215539356057"]]
+["5215539356057"],
+["573012482597"],
+["5219999699999"],
+['5216646666666'],
+["51968374620"]]
 
 global.mods = []
 global.prems = []
@@ -66,49 +71,22 @@ global.version_language = '1.0 (MID-GB)'
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // ❰❰ API KEYS ❱❱
-global.Key360 = ["Gata_Dios"] // key Ephoto360
-global.openai_key = 'sk-0' // Api New: https://platform.openai.com/account/api-keys 
-global.openai_org_id = 'org-3' // Api New: https://platform.openai.com/account/org-settings */
-global.keysZens = ["LuOlangNgentot", "c2459db922", "37CC845916", "6fb0eff124", "hdiiofficial", "fiktod", "BF39D349845E", "675e34de8a", "0b917b905e6f"]
-global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
-global.keysxteammm = ["29d4b59a4aa687ca", "5LTV57azwaid7dXfz5fzJu", "cb15ed422c71a2fb", "5bd33b276d41d6b4", "HIRO", "kurrxd09", "ebb6251cc00f9c63"]
-global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())]
-global.keysneoxrrr = ["5VC9rvNx", "cfALv5"]
-global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
-global.lolkeysapi = "GataDiosV3"
-global.itsrose = ["4b146102c4d500809da9d1ff"]
 global.baileys = "@whiskeysockets/baileys"
 global.apis = 'https://delirius-apiofc.vercel.app'
 
 global.APIs = { 
-xteam: 'https://api.xteam.xyz',
-dzx: 'https://api.dhamzxploit.my.id',
-lol: 'https://api.lolhuman.xyz',
-violetics: 'https://violetics.pw',
-neoxr: 'https://api.neoxr.my.id',
-zenzapis: 'https://api.zahwazein.xyz',
-akuari: 'https://api.akuari.my.id',
-akuari2: 'https://apimu.my.id',	
-fgmods: 'https://api.fgmods.xyz', 
-botcahx: 'https://api.botcahx.biz.id',
-ibeng: 'https://api.ibeng.tech/docs',	
-rose: 'https://api.itsrose.site',
-popcat : 'https://api.popcat.xyz',
-xcoders : 'https://api-xcoders.site'
-},
-   
-global.APIKeys = { 
-'https://api.xteam.xyz': `${keysxteam}`,
-'https://api.lolhuman.xyz': `${lolkeysapi}`,
-'https://api.neoxr.my.id': `${keysneoxr}`,	
-'https://violetics.pw': 'beta',
-'https://api.zahwazein.xyz': `${keysxxx}`,
-'https://api.fgmods.xyz': 'DRLg5kY7', 
-'https://api-fgmods.ddns.net': 'fg-dylux',
-'https://api.botcahx.biz.id': 'Admin',
-'https://api.ibeng.tech/docs': 'tamvan',
-'https://api.itsrose.site': 'Rs-Zeltoria',
-'https://api-xcoders.site': 'Frieren'
+lolhuman: { url: 'https://api.lolhuman.xyz/api', key: 'GataDiosV3' },
+skizo: { url: 'https://skizo.tech/api', key: 'GataDios' },
+alyachan: { url: 'https://api.alyachan.dev/api', key: null }, 
+exonity: { url: 'https://exonity.tech/api', key: 'GataDios' },
+ryzendesu: { url: 'https://api.ryzendesu.vip/api', key: null },
+neoxr: { url: 'https://api.neoxr.eu/api', key: 'GataDios' },
+davidcyriltech: { url: 'https://api.davidcyriltech.my.id', key: null },
+dorratz: { url: 'https://api.dorratz.com', key: null },
+siputzx: { url: 'https://api.siputzx.my.id/api', key: null },
+vreden: { url: 'https://api.vreden.web.id/api', key: null },
+fgmods: { url: 'https://api.fgmods.xyz/api', key: 'elrebelde21' },
+popcat: { url: 'https://api.popcat.xyz', key: null }
 }
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -125,9 +103,9 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["593968263524", 'Gata Dios 💻', 1], 
-["573147616444", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
-["5521989092076", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1]]
+["201119857886", 'Gata Dios 💻', 1], 
+["201119857886", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
+["201119857886", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1]]
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
@@ -135,8 +113,8 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = "𝑻𝑬𝑹𝑩𝑶〔⚡️〕𝑬𝑳 𝑮𝑨𝑴𝑬𝑫"
-global.author = "𝑻𝑬𝑹𝑩𝑶〔⚡️〕𝑬𝑳 𝑭𝑨𝑮𝑬𝑹"
+global.packname = `𝙏𝙀𝘽𝙍𝙊〔🧚‍♀️〕𝘽𝙊𝙏`
+global.author = `تيربو بيحبك فشخ يسطا👾—͟͟͞͞`
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
@@ -144,35 +122,36 @@ global.author = "𝑻𝑬𝑹𝑩𝑶〔⚡️〕𝑬𝑳 𝑭𝑨𝑮𝑬𝑹"
 // [EN] > BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
 global.vs = "1.7.0"
 global.vsJB = "5.0 (Beta)"
-global.gt = "↝|𝑻𝑬𝑹𝑩𝑶↝|"
+global.gt = "𝑻𝑬𝑹𝑩𝑶〔⚡️〕𝑬𝑳 𝑭𝑨𝑮𝑬𝑹"
+global.imagen = fs.readFileSync('./Menu2.jpg')
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.rg = '╰⊱✅⊱ *𝙍𝙀𝙎𝙐𝙇𝙏𝘼𝘿𝙊 | 𝙍𝙀𝙎𝙐𝙇𝙏* ⊱✅⊱╮\n\n'
+global.rg = '⋄┄┄〘 تمت العمليه بنجاح🧸 〙┄┄⋄\n\n'
 global.resultado = rg
 
-global.ag = '╰⊱⚠️⊱ *𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼 | 𝙒𝘼𝙍𝙉𝙄𝙉𝙂* ⊱⚠️⊱╮\n\n'
+global.ag = '⋄┄┄〘  〙┄┄⋄\n\n'
 global.advertencia = ag
 
-global.iig = '╰⊱❕⊱ *𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊́𝙉 | 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝙏𝙄𝙊𝙉* ⊱⊱╮\n\n'
+global.iig = '⋄┄┄〘 اصبر في معلومه لازم تعرفها🥷🩸 〙┄┄⋄\n\n'
 global.informacion = iig
 
-global.fg = '╰⊱❌⊱ *𝙁𝘼𝙇𝙇𝙊́ | 𝙀𝙍𝙍𝙊𝙍* ⊱❌⊱╮\n\n'
+global.fg = '⋄┄┄〘 حصل خطاء يحب🧞‍♂️ 〙┄┄⋄\n\n'
 global.fallo = fg
 
-global.mg = '╰⊱❗️⊱ *𝙇𝙊 𝙐𝙎𝙊́ 𝙈𝘼𝙇 | 𝙐𝙎𝙀𝘿 𝙄𝙏 𝙒𝙍𝙊𝙉𝙂* ⊱❗️⊱╮\n\n'
+global.mg = '⋄┄┄〘 كده غلط يسطا بتعمل اي🗿 〙┄┄⋄\n\n'
 global.mal = mg
 
-global.eeg = '╰⊱📩⊱ *𝙍𝙀𝙋𝙊𝙍𝙏𝙀 | 𝙍𝙀𝙋𝙊𝙍𝙏* ⊱📩⊱╮\n\n'
+global.eeg = '⋄┄┄〘 تحذير🙂 〙┄┄⋄\n\n'
 global.envio = eeg
 
-global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎𝙎* ⊱💚⊱╮\n\n'
+global.eg = '⋄┄┄〘 تمت بنجاح🧞‍♂️🩸 〙┄┄⋄\n\n'
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "𝑻𝑬𝑹𝑩𝑶〔😽〕𝑬𝑳 𝑭𝑨𝑮𝑬𝑹"
-global.igfg = "𝑻𝑬𝑹𝑩𝑶〔😍〕 𝑬𝑳 𝑮𝑨𝑴𝑬𝑫"
-global.nomorown = "593993684821"
+global.wm = "𝙏𝙀𝘽𝙍𝙊〔🧚‍♀️〕𝘽𝙊𝙏"
+global.igfg = "201119857886"
+global.nomorown = "201119857886"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -442,6 +421,9 @@ ch9: '120363167110224268@newsletter',
 ch10: '120363323882134704@newsletter',
 ch11: '120363370415738881@newsletter',
 ch12: '120363385983031660@newsletter',
+ch13: '120363343811229130@newsletter',
+ch14: '120363305941657414@newsletter',
+ch15: '120363263466636910@newsletter',
 }
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -452,24 +434,24 @@ console.log(chalk.redBright("Update 'config.js'"));
 import(`${file}?update=${Date.now()}`);
 })
 
-global.yt = 'https://youtube.com'
+global.yt = 'https://youtube.com/@mohndalcot'
 global.ig = 'https://www.instagram.com/terbo_001'
-global.md = 'https://github.com'
+global.md = 'https://github.com/GataNina-Li/GataBot-MD'
 global.fb = 'https://www.facebook.com'
 global.tk = 'https://www.tiktok.com/@mohndalcot'
-global.ths = 'https://www.threads.net/@gata_dios'
-global.paypal = 'https://paypal.me/OficialGD'
+global.ths = 'https://www.threads.net/@terbo_001'
+global.paypal = 'https://paypal.me'
 global.asistencia = 'https://wa.me/message/MEKOUFBEOG5ED1'
-global.all = 'https://www.atom.bio/GataBot'
-global.canal1 = 'https://whatsapp.com/channel/0029VaxrsAa5kg7EJfR5qU1f'
-global.canal2 = 'https://whatsapp.com/channel/0029VaxrsAa5kg7EJfR5qU1f'
-global.canal3 = 'https://whatsapp.com/channel/0029VaxrsAa5kg7EJfR5qU1f'
-global.canal4 = 'https://t.me/terbo'
+global.all = 'https://www.atom.bio/mohndalcot'
+global.canal1 = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'
+global.canal2 = 'https://whatsapp.com/channel/0029Va6yY0iLY6d6XDmqA03g'
+global.canal3 = 'https://whatsapp.com/channel/0029VaKn22pDJ6GwY61Ftn15'
+global.canal4 = 'https://t.me/globalgb'
 
-global.soporteGB = "https://chat.whatsapp.com/JxEPWbns1e45Wy0NHFzne2"
-global.grupo1 = "https://chat.whatsapp.com/JxEPWbns1e45Wy0NHFzne2"
-global.grupo2 = "https://chat.whatsapp.com/JxEPWbns1e45Wy0NHFzne2"
-global.grupo_collab1 = "https://whatsapp.com/channel/0029VaxrsAa5kg7EJfR5qU1f"
-global.grupo_collab2 = "https://whatsapp.com/channel/0029VaxrsAa5kg7EJfR5qU1f"
-global.grupo_collab3 = "https://whatsapp.com/channel/0029VaxrsAa5kg7EJfR5qU1f"
-global.grupo_collab4 = "https://whatsapp.com/channel/0029VaxrsAa5kg7EJfR5qU1f"
+global.soporteGB = "https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV"
+global.grupo1 = "https://chat.whatsapp.com/JRG6rVJJV40IxlI1wjQ0E9"
+global.grupo2 = "https://chat.whatsapp.com/B5s3ohjEGofH5YDD05jAV5"
+global.grupo_collab1 = "https://chat.whatsapp.com/IO5k0UOF7hOJHE1eH3Fcxh"
+global.grupo_collab2 = "https://chat.whatsapp.com/GFsgXW2VD4I4FEOSlEg9wp"
+global.grupo_collab3 = "https://chat.whatsapp.com/H1TEBeMtFVv3RcayD1WfGU"
+global.grupo_collab4 = "https://chat.whatsapp.com/LuD3YzdOjH16LUwPPCVmL6"
